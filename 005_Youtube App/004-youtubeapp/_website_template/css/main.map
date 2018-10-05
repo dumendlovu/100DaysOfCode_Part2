@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/main.css",
+	"sources": [
+		"../sass/main.scss"
+	],
+	"sourcesContent": [
+		"@mixin font-base {\n  padding: 0;\n  margin :0;\n  line-height: 1.3;\n  font-weight: 600;\n}\n\nh4{\n  @include font-base;\n}\np{\n  @include font-base;\n  color: grey;\n  font-size: 0.7rem;\n}\nbody{\n  background-color: #000;\n}\n.container{\n  width: 560px;\n\n  background-color: #fff;\n  margin: auto;\n}\nheader, section{\n  position: fixed;\n  text-align: center;\n  width:560px;\n  background-color: #fff;\n}\nsection{\n  top: 50px;\n}\n.logo{\n  width:120px;\n  padding: 10px;\n}\nmain{\n  padding: 370px 18px 10px;\n}\narticle{\n  display: flex;\n  align-items: center;\n  padding: 8px 12px;\n  border: 2px solid white;\n  border-radius: 8px;\n  margin: auto;\n  &:hover{\n    border: 2px solid #ff9999;\n  }\n}\n.thumbnail{\n  height: 70px;\n  border-radius: 4px;\n}\n.details{\n  padding: 8px 22px;\n}\n"
+	],
+	"mappings": ";AAOA,AAAA,EAAE,CAAA;EANA,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;EACV,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,GAAI;CAKlB;;;AACD,AAAA,CAAC,CAAA;EATC,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;EACV,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,GAAI;EAQjB,KAAK,EAAE,IAAK;EACZ,SAAS,EAAE,MAAO;CACnB;;;AACD,AAAA,IAAI,CAAA;EACF,gBAAgB,EAAE,IAAK;CACxB;;;AACD,AAAA,UAAU,CAAA;EACR,KAAK,EAAE,KAAM;EAEb,gBAAgB,EAAE,IAAK;EACvB,MAAM,EAAE,IAAK;CACd;;;AACD,AAAA,MAAM,EAAE,AAAA,OAAO,CAAA;EACb,QAAQ,EAAE,KAAM;EAChB,UAAU,EAAE,MAAO;EACnB,KAAK,EAAC,KAAM;EACZ,gBAAgB,EAAE,IAAK;CACxB;;;AACD,AAAA,OAAO,CAAA;EACL,GAAG,EAAE,IAAK;CACX;;;AACD,AAAA,KAAK,CAAA;EACH,KAAK,EAAC,KAAM;EACZ,OAAO,EAAE,IAAK;CACf;;;AACD,AAAA,IAAI,CAAA;EACF,OAAO,EAAE,eAAgB;CAC1B;;;AACD,AAAA,OAAO,CAAA;EACL,OAAO,EAAE,IAAK;EACd,WAAW,EAAE,MAAO;EACpB,OAAO,EAAE,QAAS;EAClB,MAAM,EAAE,eAAgB;EACxB,aAAa,EAAE,GAAI;EACnB,MAAM,EAAE,IAAK;CAId;;;AAVD,AAAA,OAAO,AAOJ,MAAM,CAAA;EACL,MAAM,EAAE,iBAAkB;CAC3B;;;AAEH,AAAA,UAAU,CAAA;EACR,MAAM,EAAE,IAAK;EACb,aAAa,EAAE,GAAI;CACpB;;;AACD,AAAA,QAAQ,CAAA;EACN,OAAO,EAAE,QAAS;CACnB",
+	"names": []
+}
