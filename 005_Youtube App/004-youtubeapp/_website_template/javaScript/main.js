@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  var APIkey ='AIzaSyBLS_Xm8vtt4zyBpv0GEDJNfqblKznbOdw';
-  var plLiID ='PL-IVpXTWXdQ2VLSyJaWOkpGA8jR_7nbu0';
+  var APIkey ='';
+  var plLiID ='';
   var url ='https://www.googleapis.com/youtube/v3/playlistItems';
 
   var options = {
